@@ -149,6 +149,90 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
+.mob-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    padding: 24px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mob-close-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        stroke-width: 1px;
+        background-color: transparent;
+}
+
+.mob-close-icon {
+    fill: #2e2f42;
+}
+.mob-menu-nav {
+}
+.mob-menu-list {
+}
+
+.mob-menu-iter:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mob-menu-link {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color:  #2e2f42;
+}
+
+.mob-current {
+    color: #404bbf;
+}
+
+.mob-address {
+    margin-bottom: 48px;
+}
+
+.mob-address-list {
+}
+
+.mob-address-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.mob-address-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mob-current-tel {
+    color: #4d5ae5;
+}
+
+.mob-icon-list {
+    display: flex;
+    gap: 40px;
+}
+.mob-icon-item {
+    width: 40px;
+    height: 40px;
+}
+.mob-icon-link {
+}
+.icon {
+}
+.mob-icon-icon {
+}
+
 .headline { 
     max-width: 1440px; 
 background-color: #2e2f42;
