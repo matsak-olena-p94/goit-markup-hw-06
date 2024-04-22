@@ -44,7 +44,7 @@
          <use href="./images/icons.svg#icon-menu-open"></use>
         </svg>
        </button>
-  <div class="mob-menu is-open">
+  <div class="mob-menu">
     <div>
     <button class="mob-close-btn" type="button">
       <svg class="mob-close-icon" width="8" height="8">
@@ -52,7 +52,7 @@
         </use>
       </svg>
     </button>
-    <div class="mob-menu-nav">
+    <nav class="mob-menu-nav">
       <ul class="mob-menu-list"> 
         <li class="mob-menu-iter">
           <a class="mob-menu-link mob-current" 
@@ -64,7 +64,7 @@
           <a class="mob-menu-link" 
           href="">Contacts</a></li> 
       </ul> 
-    </div>
+    </nav>
     </div>
     <div>
       <address class="mob-address"> 
@@ -539,7 +539,7 @@
     </div>
       </div>
     </footer> 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-open-btn" type="button">
           <svg class="modal-icon" width="8" height="8">
@@ -587,8 +587,9 @@
               <svg class="check-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-             </span>I accept the terms and conditions of the 
-             <a class="check-text-accent" href="">Privacy Policy</a></label>
+             </span>
+             <span>I accept the terms and conditions of the 
+             <a class="check-text-accent" href="">Privacy Policy</a></span></label>
         </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
