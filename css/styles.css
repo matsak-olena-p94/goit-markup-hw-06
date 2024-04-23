@@ -828,7 +828,7 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
     }
 
-    .modal-check:checked + .check-text span {
+    .modal-check:checked + .check-text .check-fake {
         background-color: #404bbf;
         border: none;
         fill: #f4f4fd;
